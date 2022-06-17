@@ -6,7 +6,7 @@ const App = () => {
   const [userData, SetuserData] = useState([]);
 
   const getUserData = (data) => {
-    SetuserData([...userData,data]);
+    SetuserData([...userData, data]);
   };
 
   return (
